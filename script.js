@@ -11,7 +11,7 @@ function addTask(){
         task.innerHTML = `
         <div id="${count}" class="w-[500px] h-[100px] border border-gray-400 rounded p-3 mt-4 flex items-center justify-between">
                 <p class="text-Red-500 text-2xl font-bold">${inputBox.value}</p>
-                 <button onclick="deleteData(${count})" class="w-[80px] h-[50px] rounded bg-blue-200">Delete</button>
+                 <button onclick="deleteData(${count})" class="w-[80px] h-[50px] rounded p-3 bg-blue-200">Delete</button>
         </div>`
 
         taskList.appendChild(task);
